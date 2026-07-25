@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: fantasy;
+    font-size: 25px;
+    h1{
+        color:aliceblue
+    }
+
+    h3{
+        color:aliceblue
+    }
+
+    p{
+        color:aliceblue
+    }
+}
+
+body{
+    background:#000000;
+}
+
+header{
+    background:#030303;
+    color:#d307b8;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:rgb(68, 211, 12);
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#d307b8;
+}
+
+#hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px;
+    background:rgb(0, 0, 0);
+}
+
+.hero-text{
+    width:45%;
+}
+
+.hero-text h1{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    margin-bottom:15px;
+}
+
+.btn{
+    display:inline-block;
+    background:#d307b8;
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:5px;
+    margin-top:15px;
+}
+
+.btn:hover{
+    background:rgb(60, 255, 0);
+    color:rgb(8, 8, 8);
+}
+
+.hero-img img{
+    width:500px;
+    border-radius:10px;
+}
+
+#servicios{
+    padding:60px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:30px;
+}
+
+.card{
+    background:rgb(14, 228, 32);
+    width:300px;
+    padding:15px;
+    border-radius:10px;
+    border: 5px solid #f5f1f4;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.card h3{
+    margin:15px 0;
+}
+
+#galeria{
+    padding:60px;
+    text-align:center;
+}
+
+.imagenes{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:30px;
+}
+
+.imagenes img{
+    width:250px;
+    border-radius:10px;
+}
+
+footer{
+    background:#111;
+    color:rgb(223, 14, 205);
+    display:flex;
+    justify-content:space-around;
+    padding:40px;
+}
+
+.footer-nav a{
+    display:block;
+    color:rgb(51, 241, 13);
+    text-decoration:none;
+    margin:8px 0;
+}
+
+.footer-nav a:hover{
+    color:rgb(255, 0, 255);
+}
